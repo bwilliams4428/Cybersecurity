@@ -10,12 +10,12 @@
 	**The Chief Executive Officer for Altoro Mutual is Karl Fitzgerald.**
 	
 	**Using the Google Dork  "site:demo.testfire.net intext:Chief Executive Officer", returned two results which reveals the CEO of Altoro 		Mutual:**
-		*http://demo.testfire.net/pr/communityannualreport.pdf
-		*http://demo.testfire.net/index.jsp?content=pr/20060720.htm
+	 * http://demo.testfire.net/pr/communityannualreport.pdf
+	 * http://demo.testfire.net/index.jsp?content=pr/20060720.htm
 	
 	**Using the dork "intext:altoro Chief Executive Officer" produces the page that lists Altoro Mutuals executives and managers:**
 		
-		*http://www.altoromutual.com/index.jsp?content=inside_executives.htm
+	 * http://www.altoromutual.com/index.jsp?content=inside_executives.htm
 	
 - How can this information be helpful to an attacker:
 	
