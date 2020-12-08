@@ -101,11 +101,20 @@ Your client has asked that you help identify any vulnerabilities with their file
 - Bonus command to output results into a new text file named `zenmapscan.txt`:
 		
 		nmap -sV -oS zenmapscan.txt 192.168.0.10
+		
+	![Image of Zenmapoutput](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/16-Penetration-Testing%20Homework/images/zenmap1.PNG)
+	![Image of Zenmapoutput](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/16-Penetration-Testing%20Homework/images/zenmaptxt.PNG)
+		
 	
 - Zenmap vulnerability script command: 
 
 		nmap -TF -F --script smb-enum-shares,smb-os-discovery 192.168.0.10
+	
+	![Image of zenmap vunerablility](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/16-Penetration-Testing%20Homework/images/zen2.PNG)
 		
+![Image of zenmap vunerablility](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/16-Penetration-Testing%20Homework/images/zen3.PNG)
+
+![Image of zenmap vunerablility](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/16-Penetration-Testing%20Homework/images/zen4.PNG)
 
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability:
