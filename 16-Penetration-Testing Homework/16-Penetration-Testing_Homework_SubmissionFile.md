@@ -37,7 +37,7 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
   4. What is the IP address of the DNS server:
 		
 		**65.61.137.117 is IP for the web server that demo.testfire.net uses. The nameservers that testfire.net provides DNS server 			information:**
-		
+		```
 		dig ns testfire.net
 		; <<>> DiG 9.16.2-Debian <<>> ns testfire.net
 		;; global options: +cmd
@@ -64,7 +64,7 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 		;; SERVER: 192.168.1.1#53(192.168.1.1)
 		;; WHEN: Tue Dec 08 00:54:20 EST 2020
 		;; MSG SIZE  rcvd: 204
-
+		```
 		
 
 #### Step 3: Shodan
