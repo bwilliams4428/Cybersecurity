@@ -36,8 +36,7 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 		
   4. What is the IP address of the DNS server:
 		
-		**65.61.137.117**
-		**65.61.137.117 is IP for the web server that demo.testfire.net uses. The nameservers that testfire.net provides DNS server 			information:
+		**65.61.137.117 is IP for the web server that demo.testfire.net uses. The nameservers that testfire.net provides DNS server 			information:**
 		
 		dig ns testfire.net
 		; <<>> DiG 9.16.2-Debian <<>> ns testfire.net
@@ -52,19 +51,19 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 		;testfire.net.                  IN      NS
 
 		;; ANSWER SECTION:
-		testfire.net.           21599   IN      NS      ns1-206.akam.net.
-		testfire.net.           21599   IN      NS      asia3.akam.net.
-		testfire.net.           21599   IN      NS      eur2.akam.net.
-		testfire.net.           21599   IN      NS      usc2.akam.net.
-		testfire.net.           21599   IN      NS      usw2.akam.net.
-		testfire.net.           21599   IN      NS      ns1-99.akam.net.
-		testfire.net.           21599   IN      NS      usc3.akam.net.
-		testfire.net.           21599   IN      NS      eur5.akam.net.
+		**testfire.net.           21599   IN      NS      ns1-206.akam.net.**
+		**testfire.net.           21599   IN      NS      asia3.akam.net.**
+		**testfire.net.           21599   IN      NS      eur2.akam.net.**
+		**testfire.net.           21599   IN      NS      usc2.akam.net.**
+		**testfire.net.           21599   IN      NS      usw2.akam.net.**
+		**testfire.net.           21599   IN      NS      ns1-99.akam.net.**
+		**testfire.net.           21599   IN      NS      usc3.akam.net.**
+		**testfire.net.           21599   IN      NS      eur5.akam.net.**
 
-;; Query time: 76 msec
-;; SERVER: 192.168.1.1#53(192.168.1.1)
-;; WHEN: Tue Dec 08 00:54:20 EST 2020
-;; MSG SIZE  rcvd: 204
+		;; Query time: 76 msec
+		;; SERVER: 192.168.1.1#53(192.168.1.1)
+		;; WHEN: Tue Dec 08 00:54:20 EST 2020
+		;; MSG SIZE  rcvd: 204
 
 		
 
