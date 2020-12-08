@@ -5,19 +5,18 @@
 
 - Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is:
 	
-	The Chief Executive Officer for Altoro Mutual is Karl Fitzgerald.
+	**The Chief Executive Officer for Altoro Mutual is Karl Fitzgerald.**
 	
-	Using the Google Dork  "site:demo.testfire.net intext:Chief Executive Officer", returned two results which reveals the CEO of Altoro Mutual:
+	**Using the Google Dork  "site:demo.testfire.net intext:Chief Executive Officer", returned two results which reveals the CEO of Altoro 		Mutual:**
 		http://demo.testfire.net/pr/communityannualreport.pdf
 		http://demo.testfire.net/index.jsp?content=pr/20060720.htm
 	
-	Using the dork "intext:altoro Chief Executive Officer" produces the page that lists Altoro Mutuals executives and managers:
+	**Using the dork "intext:altoro Chief Executive Officer" produces the page that lists Altoro Mutuals executives and managers:**
 		http://www.altoromutual.com/index.jsp?content=inside_executives.htm
 	
 - How can this information be helpful to an attacker:
 	
-	This information can be used in a spear phishing and social engineering campaigns against the CEO. An attacker may also be find other data associated with the CEO
-	such as personal social media accounts, home address, family structure and criminal records.
+	**This information can be used in a spear phishing and social engineering campaigns against the CEO. An attacker may also be able to find  	   other sources of data associated with the CEO such as personal social media accounts, home address, family members and criminal records.**
 	
 #### Step 2: DNS and Domain Discovery
 
@@ -25,19 +24,48 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
   1. Where is the company located: 
 		
-		Sunnyvale, California 
+		**Sunnyvale, California** 
   
   2. What is the NetRange IP address:
 		
-		65.61.137.64 - 65.61.137.127
+		**65.61.137.64 - 65.61.137.127**
 		
   3. What is the company they use to store their infrastructure:
 		
-		Rackspace Backbone Engineering
+		**Rackspace Backbone Engineering**
 		
   4. What is the IP address of the DNS server:
 		
-		65.61.137.117
+		**65.61.137.117**
+		**65.61.137.117 is IP for the web server that demo.testfire.net uses. The nameservers that testfire.net provides DNS server 			information:
+		
+		dig ns testfire.net
+		; <<>> DiG 9.16.2-Debian <<>> ns testfire.net
+		;; global options: +cmd
+		;; Got answer:
+		;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2765
+		;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 1
+
+		;; OPT PSEUDOSECTION:
+		; EDNS: version: 0, flags:; udp: 512
+		;; QUESTION SECTION:
+		;testfire.net.                  IN      NS
+
+		;; ANSWER SECTION:
+		testfire.net.           21599   IN      NS      ns1-206.akam.net.
+		testfire.net.           21599   IN      NS      asia3.akam.net.
+		testfire.net.           21599   IN      NS      eur2.akam.net.
+		testfire.net.           21599   IN      NS      usc2.akam.net.
+		testfire.net.           21599   IN      NS      usw2.akam.net.
+		testfire.net.           21599   IN      NS      ns1-99.akam.net.
+		testfire.net.           21599   IN      NS      usc3.akam.net.
+		testfire.net.           21599   IN      NS      eur5.akam.net.
+
+;; Query time: 76 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Tue Dec 08 00:54:20 EST 2020
+;; MSG SIZE  rcvd: 204
+
 		
 
 #### Step 3: Shodan
