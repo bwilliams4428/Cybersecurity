@@ -84,7 +84,11 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
 Is Altoro Mutual vulnerable to XSS: 
 	
-	Yes, Altoro Mutual is vulnerable to XSS. An XSS vulnerability was discovered on 08/02/2009.
+   Yes, Altoro Mutual is vulnerable to XSS. An XSS vulnerability was discovered on 08/02/2009.
+	
+   ![Image of Recon-ng](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/16-Penetration-Testing%20Homework/images/recon-ng2.PNG)
+   ![Image of Recon-ng](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/16-Penetration-Testing%20Homework/images/recon-ng1.PNG)
+
 
 ### Step 5: Zenmap
 
