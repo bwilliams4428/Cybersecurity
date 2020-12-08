@@ -119,26 +119,25 @@ Your client has asked that you help identify any vulnerabilities with their file
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability:
 		
-		My scan discovered two vulnerabilities affecting service message block(SMB):
+		**My scan discovered two vulnerabilities affecting service message block(SMB):**
 			
-			smb-enum-shares - Lists the shares that use the SMB protocol on the targeted system. It provides other information about the shares
-							  such as the username, path and if anonymous access is enabled.
+		**smb-enum-shares - Lists the shares that use the SMB protocol on the targeted system. It provides other information about the 					    shares such as the username, path and if anonymous access is enabled.**
 			
-			smb-os-discovery - Provides information about the targeted system over SMB protocol. Information such as the operating system, the system's hostname, workgroup
-							   and system time.
+		**smb-os-discovery - Provides information about the targeted system using the SMB protocol. Information such as the operating 					     system, the system's hostname, workgroup, and system time. This information is vital during an attacker's 					     reconnaissance phase.**
 		
   2. Why is it dangerous:
 			
-			An attacker can use smb-enum-shares to find sensitive data being shared via SMB and writeable directories for an attacker to place trojans.
+		**An attacker can use smb-enum-shares to find sensitive data being shared via SMB and writeable directories for an attacker to    		  place trojans.**
 			
-			An attacker can use the information generated from smb-os-discovery to determine the types of attacks to wage against the target based on the operating system.
+		**An attacker can use the information generated from smb-os-discovery to determine the types of attacks to wage against the target 		   based on the operating system.**
 
   3. What mitigation strategies can you recommendations for the client to protect their server:
 			
-			Have all directories that are shared using SMB protocol be password protected and disable anonymous access for shares.
+		**Have all directories that are shared using SMB protocol be password protected and disable anonymous access for shares.**
 			
-			Disable SMB v1 and use SMB v2.
-			
+		**Disable SMB v1 and use SMB v2(v3) which is a more secure protocol.**
+		
+		**Don't use SMB / on premise network sharing and switch to an affordable cloud based solution.**			
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
 
