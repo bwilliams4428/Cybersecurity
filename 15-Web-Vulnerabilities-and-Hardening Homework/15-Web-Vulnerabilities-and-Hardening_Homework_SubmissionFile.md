@@ -20,7 +20,7 @@ Answer: Parameters
 
 2. Which part of the URL can be manipulated by an attacker to cause a vulnerable web server to dump the `/etc/passwd` file? Also, name the attack used to exploit this vulnerability.
 
-Answer: Path
+	**Path**
    
 3. Name three threat agents that can pose a risk to your organization.
 
@@ -30,20 +30,20 @@ Answer: Path
 
 4. What kinds of sources can act as an attack vector for injection attacks?
 
-Answer: HTML forms
-		HTTP headers
-		Web application
-		Email headers
-		Web browser
+ 	* **HTML forms**
+	* **HTTP headers**
+	* **Web application**
+	* **Email headers**
+	* **Web browser**
 
 5. Injection attacks exploit which part of the CIA triad?
 
-Answer: Availability
-		Integrity
+	**Confidentiality** 
 
 6. Which two mitigation methods can be used to thwart injection attacks?
-		Input validation
-		Input sanitization
+		
+	* **Input validation**
+	* **Input sanitization**
 ____
 
 #### Web Server Infrastructure
@@ -62,23 +62,23 @@ Use the graphic below to answer the following questions:
    
 1. What stage is the most inner part of the web architecture where data such as, customer names, addresses, account numbers, and credit card info, is stored?
 
-Answer: Stage 5 Database
+	**Stage 5 Database**
 
 2. Which stage includes online forms, word processors, shopping carts, video and photo editing, spreadsheets, file scanning, file conversion, and email programs such as Gmail, Yahoo and AOL.
 
-Answer: Stage 4 Web Application
+	**Stage 4 Web Application**
 
 3. What stage is the component that stores files (e.g. HTML documents, images, CSS stylesheets, and JavaScript files) that's connected to the Internet and provides support for physical data interactions between other devices connected to the web?
 
-Answer: Stage 3 Web Server
+	**Stage 3 Web Server**
 
 4. What stage is where the end user interacts with the World Wide Web through the use of a web browser?
 
-Answer: Stage 1 Client
+	**Stage 1 Client**
 
 5. Which stage is designed to prevent unauthorized access to and from protected web server resources?
 
-Answer: Stage 2 Firewall
+ 	**Stage 2 Firewall**
 
 ----
 
@@ -89,35 +89,31 @@ In today’s globally connected cyber community, network and OS level attacks ar
 
 1. What is the process called that cleans and scrubs user input in order to prevent it from exploiting security holes by proactively modifying user input.
 
-Answer: Input sanitization
+	**Input sanitization**
 
 2. Name the process that tests user and application-supplied input. The process is designed to prevent malformed data from entering a data information system by verifying user input meets a specific set of criteria (i.e. a string that does not contain standalone single quotation marks).
 
-Answer: Input validation
+	**Input validation**
 
 3. **Secure SDLC** is the process of ensuring security is built into web applications throughout the entire software development life cycle. Name three reasons why organization might fail at producing secure web applications.
 
-Answer: Lack of enforcement of secure coding standards.
-		Cost to implement and maintain secure coding standards.
-		Inexperienced developers not able to produce secure code.
+	* **Lack of enforcement of secure coding standards**
+	* **Expensive to implement**
+	* **Developers not able to produce secure code**
 
 4. How might an attacker exploit the `robots.txt` file on a web server?
 
-Answer: The robots.txt file has entries to allow and disallow a search engine bot from crawling specific directories. Directories and files that are disallowed from being crawled
-		may contain important data that the attacker can target.
+	**The robots.txt file has entries that allow and/or disallow a search engine bot access to specified directories. Directories and files 	  that are disallowed in the robots.txt may contain important data that an attacker can target.**
 
 5. What steps can an organization take to obscure or obfuscate their contact information on domain registry web sites?
 
-Answer: An organization can enable whois privacy and/or utilize GDPR which all registrars are obligated to offer since ICANN requires it. 
+	**An organization can enable whois privacy and/or utilize GDPR which all registrars are obligated to offer since ICANN adopted it in 2018**
    
 6. True or False: As a network defender, `Client-Side` validation is preferred over `Server-Side` validation because it's easier to defend against attacks.
 
    - Explain why you chose the answer that you did.
 
-Answer: False. Server-side validation is much more important than client side validation. Client side validation can be easily bypassed by the user disabling JavaScript
-		in their web browser. Server side validation cannot be easily bypassed on the client side. Server side validation can verify user input from the client, deem the input valid or invalid
-		and alter the input if includes malicious or suspcious characters.
-
+	 **False. Server-side validation is much more important than client side validation. Client side validation can be easily bypassed by the  	      user disabling JavaScript in their web browser. Server side validation cannot be easily bypassed on the client side. Server side         	          validation can verify user input from the client, deem the input valid or invalid and alter the input if includes malicious or suspcious     	          characters.**
 ____
 
 #### Web Application Firewalls
@@ -128,15 +124,15 @@ WAFs are typically present on web sites that use strict transport security mecha
 
 1. Which layer of the OSI model do WAFs operate at?
 
-Answer: Layer 7 Application
+	**Layer 7 Application**
 
 2. A WAF helps protect web applications by filtering and monitoring what?
 
-Answer: HTTP and HTTPS traffic
+	**HTTP and HTTPS traffic**
 
 3. True or False: A WAF based on the negative security model (Blacklisting) protects against known attacks, and a WAF based on the positive security model (Whitelisting) allows pre-approved traffic to pass.
 
-Answer: True
+	**True**
 ____
 
 #### Authentication and Access Controls
@@ -149,31 +145,25 @@ Security enhancements designed to require users to present two or more pieces of
 
 1. Define all four factors of multifactor authentication and give examples of each:
 
-   - Factor 1: Single factor authentication - A user gains access to a system or asset using only one category of credentials such as password based authentication.
+   **- Factor 1: Single factor authentication - "Something you know" - A user gains access to a system or asset using only one category of  	  	 credentials such as password(password, PIN, challenge phrase) based authentication.**
 
+   **- Factor 2: Two factor authentication - "Something you have" -A user gains access to a system or asset using two different categories of 	  	 credentials such as a password and a device with that provides user authentication such as smartphone with an authenticatior app or a USB 	  key fob such as a Yubikey.**
    
-   - Factor 2: Two factor authentication - A user gains access to a system or asset using two different categories of credentials such as a password and a device with that provides user
-			                               authentication such as smartphone with an authenticatior app or a USB key fob such as a Yubikey.
-   
-   
-   - Factor 3: Three factor authentication - A user gains access to a system or asset using three different categories of credentials such as a password, device with authentication software
-											 and a biometric credential such as a fingerprint.
+   **- Factor 3: Three factor authentication "Something you are" - A user gains access to a system or asset using three different categories of  	credentials such as a password, device with authentication software and a biometric credential such as a fingerprint or voice sample.**
 
-   
-   - Factor 4: Four factor authentication - A user gains access to a system or asset using four different categories of credentials such as a password, device with authentication software,
-											biometric credentials such as a fingerprint or voice sample and a location credential such as a tracking microchip embedded in your skin or GPS tracker on your person.
+   **- Factor 4: Four factor authentication - A user gains access to a system or asset using four different categories of credentials such as a   	 password, device with authentication software, biometric credentials such as a fingerprint or voice sample and time based authentication or      	 location credential such as a tracking microchip embedded in your skin or GPS tracker on your person.**
    
 2. True or False: A password and pin is an example of 2-factor authentication.
 
-Answer: False. A password and pin are both forms single factor authentication that provide no added layer of security.
+   **False. A password and pin are both forms single factor authentication that provide no added layer of security.**
    
 3. True or False: A password and `google authenticator app` is an example of 2-factor authentication.
 
-Answer: True
+   **True**
    
 4. What is a constrained user interface? 
 
-Answer: An interface that restricts user access to specific functions and system resources. A restricted shell and ATM machine are examples of constrained interfaces.
+   **An interface that restricts user access to specific functions and system resources. A restricted shell and an ATM machine are examples of         	    constrained interfaces.**
 ----
 ____
 
@@ -220,6 +210,7 @@ Your first mission is to break the authentication scheme. There are a number of 
 - **Hint #3**: You can appened `source?source=true` to the URL to read the source code. 
 
 Please include a screenshot here of the hidden JavaScript:
+[Image of Challenge1](
 
 After completing the first challenge, you will be provided with an option to continue to the next challenge.
 
