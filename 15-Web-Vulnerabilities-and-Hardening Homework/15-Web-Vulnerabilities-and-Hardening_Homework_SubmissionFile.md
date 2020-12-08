@@ -188,9 +188,9 @@ Your first mission is to break the authentication scheme. There are a number of 
 - **Hint #3**: You can appened `source?source=true` to the URL to read the source code. 
 
 Please include a screenshot here of the hidden JavaScript:
-[Image of Challenge1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge%201.PNG)
+![Image of Challenge1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge%201.PNG)
 
-
+![Image of Challenge1.2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge1.2.PNG)
 
 
 #### Challenge #2
