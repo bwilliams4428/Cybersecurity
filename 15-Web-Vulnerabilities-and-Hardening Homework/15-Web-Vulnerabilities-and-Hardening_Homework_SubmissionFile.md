@@ -211,13 +211,12 @@ Your final act is to deface the website using command injection. Follow the walk
 
 Please include a screenshot of the defaced website. 
 	
-      ```bash 
+     
       tcp && echo "You've been hacked by Brian" >> /lib/tomcat6/webapps/WebGoat/webgoat_challenge_guest.jsp
-      end
-      ```
+      
 ![Image of Challenge3](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge3.PNG)
 
-![Image of Challenge3(https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge3.1.PNG)
+![Image of Challenge3](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge3.1.PNG)
      
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
