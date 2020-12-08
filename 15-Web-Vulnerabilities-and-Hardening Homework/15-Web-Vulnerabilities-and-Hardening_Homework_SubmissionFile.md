@@ -24,9 +24,9 @@ Answer: Path
    
 3. Name three threat agents that can pose a risk to your organization.
 
-	Answer: * Hacktivist
-		* Criminal hacker
-		* Disgruntled employee
+	 *Hacktivist
+	 *Criminal hacker
+	 *Disgruntled employee
 
 4. What kinds of sources can act as an attack vector for injection attacks?
 
