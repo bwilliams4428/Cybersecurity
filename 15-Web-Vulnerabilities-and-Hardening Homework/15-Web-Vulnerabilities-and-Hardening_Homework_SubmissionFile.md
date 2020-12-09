@@ -18,7 +18,7 @@ Use the graphic below to answer the following questions:
 
 1. Which part of the URL can be manipulated by an attacker to exploit a vulnerable back-end database system? 
 
-Answer: Parameters
+	**Parameters**
 
 2. Which part of the URL can be manipulated by an attacker to cause a vulnerable web server to dump the `/etc/passwd` file? Also, name the attack used to exploit this vulnerability.
 
