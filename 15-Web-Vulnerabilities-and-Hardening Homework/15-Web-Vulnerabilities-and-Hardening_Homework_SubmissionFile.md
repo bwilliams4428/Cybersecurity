@@ -204,9 +204,10 @@ Next, steal all of the credit card numbers from the database.
 - **Hint #2**: Break your way into the conversation and inject your own ideas.
 
 Please include a screenshot here of all the credit card numbers from the database. 
-![Image of Challenge2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/chALLENGE23.PNG)
 
 ![Image of Challenge2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/challenge2.1.PNG)
+
+![Image of Challenge2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/chALLENGE23.PNG)
 
 ![Image of Challenge2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge%202.PNG)
 
