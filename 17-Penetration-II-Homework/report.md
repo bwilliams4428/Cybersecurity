@@ -1,5 +1,6 @@
-**Brian C Williams 
-17-Penetration II Homework**
+**Brian C Williams** 
+
+**17-Penetration II Homework**
 
 
 You've been provided full access to the network and are getting ping responses from the CEO’s workstation.
@@ -10,7 +11,7 @@ Run the Nmap command that performs a service and version scan against the target
 
 	Answer: nmap -sV 192.168.0.20
 
-	[Image of  ql](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q1.PNG)
+	![Image of question1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q1.PNG)
 
 
 From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:
