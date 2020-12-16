@@ -1,3 +1,5 @@
+**Brian C Williams**
+
 ## Unit 15 Submission File: Web Vulnerabilities and Hardening
 
 
@@ -16,7 +18,7 @@ Use the graphic below to answer the following questions:
 
 1. Which part of the URL can be manipulated by an attacker to exploit a vulnerable back-end database system? 
 
-Answer: Parameters
+	**Parameters**
 
 2. Which part of the URL can be manipulated by an attacker to cause a vulnerable web server to dump the `/etc/passwd` file? Also, name the attack used to exploit this vulnerability.
 
@@ -174,28 +176,6 @@ In this activity, you will assume the role of a pen tester hired by a bank to te
 
 #### Lab Environment   
 
-We'll use the **Web Vulns** lab environment. To access it: 
-  - Log in to the Azure Classroom Labs dashboard. 
-  - Find the card with the title **Web Vulns** or **Web Vulnerability and Hardening**.
-  - Click the monitor icon in the bottom-right. 
-  - Select **Connect with RDP**.
-  - Use Credentials (azadmin:p4ssw0rd*)
-
-- The lab should already be started, so you should be able to connect immediately. 
-
-- Refer to the [lab setup instructions](https://cyberxsecurity.gitlab.io/documentation/using-classroom-labs/post/2019-01-09-first-access/) for details on setting up the RDP connection.
-
-Once the lab environment is running, open the HyperV manager and make sure that the OWASPBWA and Kali box is running.
-
-- Then, login to the Kali VM and navigate to the IP address of the OWASPBWA machine.
-
-- Click the option for 'WebGoat' and start the WebGoat app.
-
-- Use the credentials: `guest`:`guest`
-
-On the bottom of the left side of the screen, click on `Challenge` and then choose `The Challenge`.
-
-**Note:** A common issue with this lab is the Challange activity failing to start successfully. Hit the `Restart the Lesson` button in the top right if you get an error starting the activity.
 
 ### The Challenge Instructions
 
@@ -210,9 +190,10 @@ Your first mission is to break the authentication scheme. There are a number of 
 - **Hint #3**: You can appened `source?source=true` to the URL to read the source code. 
 
 Please include a screenshot here of the hidden JavaScript:
-[Image of Challenge1](
+![Image of Challenge1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge%201.PNG)
 
-After completing the first challenge, you will be provided with an option to continue to the next challenge.
+![Image of Challenge1.2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge1.2.PNG)
+
 
 #### Challenge #2
 
@@ -224,89 +205,24 @@ Next, steal all of the credit card numbers from the database.
 
 Please include a screenshot here of all the credit card numbers from the database. 
 
-After completing the second challenge, you will be provided with an option to continue to the next challenge.
+![Image of Challenge2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/challenge2.1.PNG)
 
+![Image of Challenge2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/chALLENGE23.PNG)
+
+![Image of Challenge2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge%202.PNG)
 
 #### Challenge #3
 
 Your final act is to deface the website using command injection. Follow the walkthrough below to help you get started. 
 
-- After completing the second challenge, you will be provided with an option to continue to the next challenge.
-
-   ![cracked credit cards](Images/credit_cards-cracked.png)
-
-- There should be two webpages at the bottom of the window. The one on top is the original, and the one on the bottom is the defaced webpage.
-
-   ![original webpage](Images/original_defaced.png)
-
-- Start Foxy Proxy (WebScarab) to send all GET/POST requests from Firefox to the WebScarab proxy intercept.
-
-   ![Foxy Proxy](Images/foxy_proxy_scab.png)
-
-- Click **TCP** and then the **View Network** button and send the request to WebScarab.
-
-   ![View Network](Images/view_network_tcp.png)
-
-- The WebScarab window will open. 
-
-   - In the **URL Encoded** tab, find the **File** and **Value** form fields. 
-   - This is where you will perform your command injection.
-   
-    ![File Field](Images/webscarab_file_value_field.png)
-
-- Next, perform a test and see if this shell is vulnerable to command injection. 
-
-   - Type the following command into the Value field: `tcp && whoami && pwd`.
-   
-       - **Note:** Windows users can type `tcp && dir`. `dir` will return the directory as proof of vulnerability.
-   
-   - Click **Accept Changes**.
-   
-     ![whoami](Images/whoami_pwd_image.png)
-   
-   - On the next window, click **Accept Changes** twice.
-   
-     ![accept](Images/webscarab_2nd_window.png)
- 
-- Scroll to the bottom of the **Current Network Status** window and observe the results for both of the `whoami` and `pwd` commands.
-
-    ![whoami & pwd](Images/whoami_pwd.png)
-
-   - The results show that we are the root user and our current working directory is `/var/lib/tomcat6`.
-
-   - This verifies the vulnerability, so proceed to the next step.
-
-- Next, we'll locate the `webgoat_challenge_guest.jsp` file. 
-
-   - Type the following command: `tcp && cd / && find . -iname webgoat_challenge_guest.jsp`.
-   
-      - **Note**: Windows users will need to type: `tcp && dir /s 'webgoat_challenge_guest.jsp'`
-   
-   ![find command](Images/webscarab_find_command.png)
-   
-   - The absolute path is: `./owaspbwa/owaspbwa-svn/var/lib/tomcat6/webapps/WebGoat/webgoat_challenge_guest.jsp`.
-   
-   ![absolute path](Images/webscarab_abolute_path.png)
-   
-   - Remember, our present working directory is `/var/lib/tomcat6`. Therefore, the relative path is `webapps/WebGoat/webgoat_challenge_guest.jsp`.
-   
-**Now it's your turn**   
-
-- Now that we know where the webpage is, your task will be to deface the website. Keep in mind the following:
-  * Use **WebScarab** to perform command injection.
-  * When performing command injection, you will need to select a field that WebScarab can return commands to. These fields are typically located in a drop down. 
-  * You will also need to locate and edit the the webpage's source code: `webgoat_challenge_guest.jsp`
-  * Your final command will:
-    * Change to the location of the `webgoat_challenge_guest.jsp` file.
-    * **and** echo `You've been hacked by...` followed by your name, to the `webgoat_challenge_guest.jsp` file.
-    
 Please include a screenshot of the defaced website. 
-	tcp && echo "You've been hacked by Brian" >> /lib/tomcat6/webapps/Web/webgoat_challenge_guest.jsp
-	&& mv /var/lib/tomcat6/webapps/webgoat_challenge_guest.jsp /var/lib/tomcat6/webapps/WebGoat/webgoat_challenge_guest.jsp
 	
-	tcp && echo "You've been hacked by Brian" >> /lib/tomcat6/webapps/WebGoat/webgoat_challenge_guest.jsp
+     
+      tcp && sed -i '1s/^/You have been hacked by Brian Williams Pay me now /' /var/lib/tomcat6/webapps/WebGoat/webgoat_challenge_guest.jsp 
+      
+![Image of Challenge3](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge333.PNG)
 
-	
-	
+![Image of Challenge3](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/15-Web-Vulnerabilities-and-Hardening%20Homework/images/Challenge3n.PNG)
+     
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
