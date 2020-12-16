@@ -76,9 +76,9 @@ Perform a service and version scan using Nmap to determine which services are up
 
 	**Answer:** 	
 	
-			**download c:\\Users\\IEUser\\Documents\\Drinks.recipe.txt**
+			download c:\\Users\\IEUser\\Documents\\Drinks.recipe.txt
 			
-			**download c:\\Users\\IEUSER\\Documents\\user.secretfile.txt**
+			download c:\\Users\\IEUSER\\Documents\\user.secretfile.txt
 	
 	![Image of bonus](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q10.PNG)
 	![Image of bonus](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q12.PNG)
@@ -95,20 +95,23 @@ Bonus
 
 A. Run a Meterpreter post script that enumerates all logged on users.
 	
-	**Answer: run post/windows/gather/enum_logged_on_users**
+   **Answer: run post/windows/gather/enum_logged_on_users**
 
    ![Image of bonus1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/B1.PNG)
 
 B. Open a Meterpreter shell and gather system information for the target.
 	
-	**Answer: shell**
- 		**systeminfo**
+   **Answer:** 
+   		
+		shell
+           
+   		systeminfo
 	
    ![Image of bonus2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/B2.PNG)
 	
 C. Run the command that displays the target's computer system information:
 
-	**Answer: sysinfo**
+   **Answer: sysinfo**
 	
    ![Image of bonus3](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/B3.PNG)
 
