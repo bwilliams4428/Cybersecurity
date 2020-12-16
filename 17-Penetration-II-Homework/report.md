@@ -22,8 +22,7 @@ Perform a service and version scan using Nmap to determine which services are up
 
 	Run the command that starts Metasploit:
 	
-	**Answer: msfconsole -u** 
-	        **msfconsole** 
+	**Answer: msfconsole** 
 
 	![Image of q3](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/Q3.PNG)
 
