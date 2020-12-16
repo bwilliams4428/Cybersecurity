@@ -1,6 +1,6 @@
 # **Brian C Williams 17-Penetration II Homework** # 
 
-[Report.docx](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/Report.docx)
+[Report.docx](https://github.com/bwilliams4428/Cybersecurity-Homework/raw/main/17-Penetration-II-Homework/Report.docx)
 
 
 You've been provided full access to the network and are getting ping responses from the CEO’s workstation.
