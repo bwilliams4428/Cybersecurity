@@ -40,7 +40,7 @@ Perform a service and version scan using Nmap to determine which services are up
         
 	**Answer: use exploit/windows/http/icecast_header or use 0**
 	
-        ![Image of q5](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q5.PNG)
+      ![Image of q5](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q5.PNG)
 
 6. Set the RHOST to the target machine.
    
@@ -94,19 +94,19 @@ A. Run a Meterpreter post script that enumerates all logged on users.
 	
 	**Answer: run post/windows/gather/enum_logged_on_users**
 
-	![Image of bonus1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/B1.PNG)
+   ![Image of bonus1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/B1.PNG)
 
 B. Open a Meterpreter shell and gather system information for the target.
 	
 	**Answer: shell**
  		**systeminfo**
 	
-	![Image of bonus2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/B2.PNG)
+   ![Image of bonus2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/B2.PNG)
 	
 C. Run the command that displays the target's computer system information:
 
 	**Answer: sysinfo**
 	
-	![Image of bonus3](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/B3.PNG)
+   ![Image of bonus3](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/B3.PNG)
 
 
