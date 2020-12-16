@@ -1,7 +1,4 @@
-# **Brian C Williams** # 
-
-# **17-Penetration II Homework** #
-
+# **Brian C Williams 17-Penetration II Homework** # 
 
 You've been provided full access to the network and are getting ping responses from the CEO’s workstation.
 
