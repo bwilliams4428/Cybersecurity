@@ -4,47 +4,41 @@ You've been provided full access to the network and are getting ping responses f
 
 Perform a service and version scan using Nmap to determine which services are up and running:
 
-Run the Nmap command that performs a service and version scan against the target.
+1. Run the Nmap command that performs a service and version scan against the target.
 
-**Answer: nmap -sV 192.168.0.20**
+	**Answer: nmap -sV 192.168.0.20**
 
-![Image of question1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q1.PNG)
+	![Image of question1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q1.PNG)
 
+2. From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast 	      	 exploits:
 
-From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:
+	Run the SearchSploit commands to show available Icecast exploits.
 
-Run the SearchSploit commands to show available Icecast exploits.
+	**Answer: searchsploit icecast windows**
 
-Answer: searchsploit icecast windows
+	![Image of q2](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q2.PNG)
 
-[image of q2]()
+3. Now that we know which exploits are available to us, let's start Metasploit:
 
+	Run the command that starts Metasploit:
+	
+	**Answer: msfconsole -u** 
+	        **msfconsole** 
 
-Now that we know which exploits are available to us, let's start Metasploit:
+	![Image of q3](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/Q3.PNG)
 
+4. Search for the Icecast module and load it for use.
+	Run the command to search for the Icecast module:
 
+	**Answer: search icecast**
 
-Run the command that starts Metasploit:
+	![Image of q4](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/Q4.PNG)
 
-Answer: msfconsole -u
-		msfconsole 
-
-Search for the Icecast module and load it for use.
-
-image
-
-Run the command to search for the Icecast module:
-
-Answer: search icecast
-
-image
-
-Run the command to use the Icecast module:
+5. Run the command to use the Icecast module:
 Note: Instead of copying the entire path to the module, you can use the number in front of it.
 
-Answer: use exploit/windows/http/icecast_header
-		use 0
-
+        **Answer: use exploit/windows/http/icecast_header or use 0**
+	![Image of q4](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/Q4.PNG)
 
 
 
