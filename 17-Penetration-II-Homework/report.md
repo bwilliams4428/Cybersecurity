@@ -60,7 +60,7 @@ Perform a service and version scan using Nmap to determine which services are up
 
 8. Run the command that performs a search for the secretfile.txt on the target.
 
-	**Answer: search -f  *secretfile.txt**
+	**Answer**: search -f  *secretfile.txt**
 	
 	![Image of q8](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q8.PNG)
 
@@ -68,7 +68,7 @@ Perform a service and version scan using Nmap to determine which services are up
    
       Run the command to performs a search for the recipe.txt on the target:
 
-	**Answer: search -f *recipe.txt**
+	**Answer**: search -f *recipe.txt
 	
 	![Image of q9](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/17-Penetration-II-Homework/images/q9.PNG)
 
