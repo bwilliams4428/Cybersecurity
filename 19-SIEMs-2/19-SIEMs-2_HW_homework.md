@@ -65,7 +65,7 @@ Note: This is a public-facing windows server that VSI employees access.
 - Provide a "plain english" description of the rule.
   - For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
       
-      **The logs show a high volume of suspicious activity originating from cities Kyiv and Kharkiv in the Ukraine. The attacker tried brute force access to VSI user accounts  since the threat actor accessed /VSI_Account_login.php. A firewall rule to block traffic in those cities is:**
+      **The logs show a high volume of suspicious activity originating from cities Kyiv and Kharkiv in the Ukraine. The attacker tried brute force access to VSI user accounts since the threat actor accessed /VSI_Account_login.php. A firewall rule to block traffic in those cities is:**
       
    * **Block all incoming HTTP traffic to VSI_Account_login.php where source IP equal 194.105.145.147(Kyiv) or 79.171.127.34(Kharkiv)**
 
@@ -82,5 +82,9 @@ Note: This is a public-facing windows server that VSI employees access.
 - What other rules can you create to protect VSI from attacks against your webserver?
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
-  
+     
+   * **Block all incoming POST requests to VSI_Account_login.php where region equals Kyiv City or region equals Kharkivs'ka Oblast'
+   * **Block all incoming POST requests to VSI_Account_login.php where country equals Ukraine
+   * **Block all incoming POST requests to VSI_Account_login.php where bytes equal 65748 and country equals Ukraine
+
  
