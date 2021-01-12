@@ -162,6 +162,7 @@ Submit a screen shot of your report and the answer to the questions above.
    - Hints:
      - Look for the `name` field to find failed logins.
      - Note the attack lasted several hours.
+     
      **The brute force attack occurred on February 21 at 4 AM thru 8 AM. It ended on the same day at 9 AM.**
      
      ![Image of attack](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/bf1.PNG)
