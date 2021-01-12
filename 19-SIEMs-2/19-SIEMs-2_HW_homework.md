@@ -82,7 +82,6 @@ Note: This is a public-facing windows server that VSI employees access.
 - What other rules can you create to protect VSI from attacks against your webserver?
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
-     
    
    * **Block all incoming POST requests to VSI_Account_login.php where region equals Kyiv City or region equals Kharkivs'ka Oblast'**
    * **Block all incoming POST requests to VSI_Account_login.php where country equals Ukraine**
