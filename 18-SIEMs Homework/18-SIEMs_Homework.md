@@ -105,9 +105,16 @@ Bonus: Run the speedtest and provide a screenshot of those results.
 4. Answer the following questions:
 
     - Based on the report created, what is the approximate date and time of the attack?
+         
+         **The attack occurred on February 23rd at 14:30:00 (2:30 PM). At that time, the upload and download speeds for both servers were extremely slow which  indicates the DDOS attack consuming large amounts of upstream and downstream bandwidth. **
+         
+         [Image of attack](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Screenshot%20editq2at%20Dec%2028%2019-29-42.png)
+         
+         
     - How long did it take your systems to recover?
 
 Submit a screen shot of your report and the answer to the questions above.
+[Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q2%201%20at%20Dec%2028%2018-49-47.png)
  
 ### Step 3: Are We Vulnerable? 
 
