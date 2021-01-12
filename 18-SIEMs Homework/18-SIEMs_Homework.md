@@ -74,7 +74,7 @@ Bonus: Run the speedtest and provide a screenshot of those results.
 
    ![Image of speedtest](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q1Bonus1-Dec%2028%2017-55-14.png)
    
-   !Image of speedtest](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q1Bonus2%20Dec%2028%2017-56-05.png)
+   ![Image of speedtest](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q1Bonus2%20Dec%2028%2017-56-05.png)
   
   Running the speedtest with no IP supplied (I suppose no IP means the speedtest will test the Internet connection on my device)
   
