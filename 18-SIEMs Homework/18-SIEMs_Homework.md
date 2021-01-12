@@ -112,6 +112,7 @@ Bonus: Run the speedtest and provide a screenshot of those results.
          
          
     - How long did it take your systems to recover?
+         
          **The systems recovered on February 23rd at 23:30:00 (11:30 PM), nine hours after the 	DDOS attack occurred. Upload and download bandwidth rates normalized at that time.**
          
          ![Image of recovery](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/q2ee%20at%20Dec%2028%2020-05-36.png)
