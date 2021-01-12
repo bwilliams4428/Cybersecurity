@@ -1,3 +1,5 @@
+## Brian C Williams
+
 ## Unit 18 Homework: Lets go Splunking!
 
 ### Scenario
@@ -60,6 +62,11 @@ Let's get started!
 4. Let the monitoring run and view the **results** page
 
 5. Provide a screenshot of the results screen that displays the state of your web servers
+
+    ![Image of q1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q1_ping%20Dec%2028%2017-46-28.png)
+    
+    ![Image of q1](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q1_ping2%20at%20Dec%2028%2017-49-26.png)
+
 
 Bonus: Run the speedtest and provide a screenshot of those results.
 
