@@ -118,9 +118,10 @@ Bonus: Run the speedtest and provide a screenshot of those results.
          ![Image of recovery](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/q2ee%20at%20Dec%2028%2020-05-36.png)
          
 Submit a screen shot of your report and the answer to the questions above.
-        
-   ![Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q2%201%20at%20Dec%2028%2018-49-47.png)
- 
+
+![Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q2%201%20at%20Dec%2028%2018-49-47.png)
+![Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q22Dec%2028%2018-51-22.png)
+
 ### Step 3: Are We Vulnerable? 
 
 **Background:**  Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
