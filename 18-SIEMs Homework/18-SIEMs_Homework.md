@@ -76,7 +76,7 @@ Bonus: Run the speedtest and provide a screenshot of those results.
    
    ![Image of speedtest](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q1Bonus2%20Dec%2028%2017-56-05.png)
   
-  Running the speedtest with no IP supplied (I suppose no IP means the speedtest will test the Internet connection on my device)
+  Running the speedtest with no IP supplied (I suppose no IP means the speedtest will test the Internet connection on my device) generated results.
   
    ![Image of speedtest](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q1Bonus3%20Dec%2028%2017-57-41.png)
 
@@ -143,7 +143,6 @@ Submit a screen shot of your report and the answer to the questions above.
    
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
-Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 ![Image of aleart](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Screenshot%20at%20Dec%2028%2021-47-27.png)
 ![Image of aleart](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Screenshot%20at%20Dec%2028%2021-47-55.png)
 ![Image of aleart](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/q3.b.png)
@@ -163,21 +162,23 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
    - Hints:
      - Look for the `name` field to find failed logins.
      - Note the attack lasted several hours.
-
+     **The brute force attack occurred on February 21 at 4 AM thru 8 AM. It ended on the same day at 9 AM.**
+     
+     ![Image of attack](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/bf1.PNG)
+     ![Image of attack](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/bf2.PNG)
       
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
-
+   
+   **A baseline of normal activity is 11-12 failed login attempts. A threshold of 25-30 failed login attempts would identify a brute force attack.**
+    
+    ![Image of baseline](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/BL.PNG)
+    
 4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
 
-Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
+![Image of baseline](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/bfa.PNG)
+![Image of baseline](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/bfa2.PNG)
+![Image of baseline](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/bf3.PNG)
+
+
  
  
-### Your Submission
-  
-In a word document, provide the following:
-  - Answers to all questions where indicated. 
-  - Screenshots where indicated.
-
----
-
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
