@@ -44,7 +44,11 @@ Note: This is a public-facing windows server that VSI employees access.
  * **Only accept login attempts from connections made from whitelisted IPs**
  * **Block IPs that make a high volume of failed login attempts within a short period of time**
 
-
+ **Individual mitigation strategies:**
+ 
+ * **The threat actor attempted to access User A’s account using a brute force attack causing the account to lock. User A will need reset the password for the account. User A must use a strong password that is not similar to the last password used. Once the password has been changed, the system/server admin may need to reset the lockout the timer so that User A is able to login using the new password.**
+ * **The threat actor made multiple attempts to reset User K’s password. The threat actor was not successful in changing the password. User K’s account will need to be monitored for password reset attempts. If the account experiences a high volume of password reset attempts then the IP(s) that the password reset attempts originated from will be blocked. User K will be required to reset the password for their account.**
+ * **The threat actor was able to access User J’s account. User J’s account will need to be reset. Require User J to use two factor authentication when accessing the account. Another consideration would be to terminate the account and create a new account for User J with a different username.**
 
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
