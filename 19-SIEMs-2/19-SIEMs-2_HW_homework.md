@@ -53,6 +53,9 @@ Note: This is a public-facing windows server that VSI employees access.
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
+   
+   * **VSI can inform its users that to treat unsolicited login information that they receive as spam and to delete such messages.**
+   * **Set the account lockout timer to expire in 10-15 minutes so that a locked out user is able to login. The user will be forced to changed to the account’s password once the lockout has expired.**
   
 
 ### Part 2: Apache Webserver Attack:
