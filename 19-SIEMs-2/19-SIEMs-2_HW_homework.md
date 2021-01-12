@@ -33,6 +33,12 @@ Note: This is a public-facing windows server that VSI employees access.
    
  **According to the windows server attack logs, the signatures that had outstanding suspicious activity on March 25th are:**
  
+ * **User account was locked out (Most affected user: A)**
+ * **An attempt was made to reset a user’s password (Most affected user: K)**
+ * **An account was successfully logged on (Most affected user: J)**
+ 
+ **Global mitigation strategies:**
+ 
  * **Require all users to use two factor authentication when logging in** 
  * **Only accept logins attempts to the company’s website from connections made from a VPN or proxy server that was approved**
  * **Only accept login attempts from connections made from whitelisted IPs**
