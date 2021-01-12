@@ -55,7 +55,7 @@ Note: This is a public-facing windows server that VSI employees access.
 - What sort of mitigation could you use to protect against this?
    
    * **VSI can inform its users that to treat unsolicited login information that they receive as spam and to delete such messages.**
-   * **Set the account lockout timer to expire in 10-15 minutes so that a locked out user is able to login. The user will be forced to changed to the account’s password once the lockout has expired.**
+   * **Set the account lockout timer to expire in 10-15 minutes so that users affected by are able to login in a timely manner. The user will be forced to changed to the account’s password once the lockout has expired.**
   
 
 ### Part 2: Apache Webserver Attack:
@@ -64,8 +64,17 @@ Note: This is a public-facing windows server that VSI employees access.
 - Based on the geographic map, recommend a firewall rule that the networking team should implement.
 - Provide a "plain english" description of the rule.
   - For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
+      
+      **The logs show a high volume of suspicious activity originating from cities Kyiv and Kharkiv in the Ukraine. The attacker tried brute force access to VSI user accounts  since the threat actor accessed /VSI_Account_login.php. A firewall rule to block traffic in those cities is:**
+      
+   * **Block all incoming HTTP traffic to VSI_Account_login.php where source IP equal 194.105.145.147(Kyiv) or 79.171.127.34(Kharkiv)**
+
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
-  
+![Image of map](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/19-SIEMs-2/images/map.PNG)
+![Image of map](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/19-SIEMs-2/images/County.PNG)
+![Image of map](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/19-SIEMs-2/images/City.PNG)
+
+
 #### Question 2
 
 - VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
