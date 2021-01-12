@@ -1,3 +1,5 @@
+## Brian C Williams
+
 ## Unit 19 Homework: Protecting VSI from Future Attacks
 
 ### Scenario
@@ -28,7 +30,12 @@ Note: This is a public-facing windows server that VSI employees access.
 #### Question 1
 - Several users were impacted during the attack on March 25th.
 - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
-  
+   
+ **According to the windows server attack logs, the signatures that had outstanding suspicious activity on March 25th are:**
+ *Require all users to use two factor authentication enabled when logging in 
+ *Only accept logins attempts to the company’s website from connections made from the company’s VPN or proxy server
+ *Only accept login attempts from connections made from whitelisted IPs
+ *Block IPs that make a high volume of failed login attempts within a short period of time
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
@@ -50,16 +57,4 @@ Note: This is a public-facing windows server that VSI employees access.
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
   
-
-
-### Guidelines for your Submission:
-  
-In a word document, provide the following:
-- Answers for all questions.
-- Screenshots where indicated
-
-Submit your findings in BootCampSpot!
-
----
-
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+ 
