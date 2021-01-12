@@ -121,6 +121,7 @@ Submit a screen shot of your report and the answer to the questions above.
 
 ![Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q2%201%20at%20Dec%2028%2018-49-47.png)
 ![Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q22Dec%2028%2018-51-22.png)
+![Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q23Dec%2028%2018-52-00.png)
 
 ### Step 3: Are We Vulnerable? 
 
