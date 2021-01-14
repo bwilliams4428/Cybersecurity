@@ -115,13 +115,11 @@ Bonus: Run the speedtest and provide a screenshot of those results.
          
          **The systems recovered on February 23rd at 23:30:00 (11:30 PM), nine hours after the 	DDOS attack occurred. Upload and download bandwidth rates normalized at that time.**
          
-         ![Image of recovery](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/q2ee%20at%20Dec%2028%2020-05-36.png)
+         ![Image of recovery](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/sped3.png)
          
 Submit a screen shot of your report and the answer to the questions above.
 
-![Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q2%201%20at%20Dec%2028%2018-49-47.png)
-![Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q22Dec%2028%2018-51-22.png)
-![Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/Q23Dec%2028%2018-52-00.png)
+![Image of report](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/sped.PNG)
 
 ### Step 3: Are We Vulnerable? 
 
