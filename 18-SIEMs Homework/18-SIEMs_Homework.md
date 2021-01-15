@@ -173,7 +173,7 @@ Submit a screen shot of your report and the answer to the questions above.
       
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
    
-   **A baseline of normal activity is 11-12 failed login attempts. A threshold of 25-30 failed login attempts would identify a brute force attack.**
+   **A baseline of normal activity is 11-12 failed login attempts. A threshold of 25-50 failed login attempts would identify a brute force attack.**
     
     ![Image of baseline](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/BL.PNG)
     
