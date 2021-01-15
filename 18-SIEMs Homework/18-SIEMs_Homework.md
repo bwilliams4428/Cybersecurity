@@ -113,9 +113,11 @@ Bonus: Run the speedtest and provide a screenshot of those results.
          
     - How long did it take your systems to recover?
          
-         **The systems recovered on February 23rd at 18:30:00 (6:30 PM), nine hours after the 	DDOS attack occurred. Upload and download bandwidth speeds increased to there pre DDOS attack rates. The ratio is 0.2 which also indicates a fully recovery.**
+         **The systems recovered on February 23rd at 18:30:00 (6:30 PM), nine hours after the DDOS attack occurred. Upload and download bandwidth speeds increased to there pre DDOS attack rates. The ratio is 0.2 which also indicates a fully recovery.**
          
          ![Image of recovery](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/sped3.png)
+       
+         **It appears that the ratio is highest when the upload and download bandwidth speeds are at their highest and lowest values.**
          
 Submit a screen shot of your report and the answer to the questions above.
 
