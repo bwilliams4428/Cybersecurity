@@ -117,7 +117,10 @@ Bonus: Run the speedtest and provide a screenshot of those results.
          
          ![Image of recovery](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/sped3.png)
        
-         **It appears that the ratio is highest when the upload and download bandwidth speeds are at their highest and lowest values.**
+         **It appears that the ratios are 0.2 when the upload and download bandwidth speeds are at their highest and lowest values.**
+         
+         ![Image of ratios](https://github.com/bwilliams4428/Cybersecurity-Homework/blob/main/18-SIEMs%20Homework/images/ratios.PNG)
+         
          
 Submit a screen shot of your report and the answer to the questions above.
 
