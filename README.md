@@ -1,4 +1,4 @@
-# Cybersecurity-Homework
+# Cybersecurity-Projects/Homework
 
 [Cybersecurity Projects](https://drive.google.com/drive/u/0/folders/15g4aux8CIF9WpPIsVc6s2MRfeLOIVken)
 
